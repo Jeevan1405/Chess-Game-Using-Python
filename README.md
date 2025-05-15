@@ -10,6 +10,7 @@ A simple Chess game built using Python and the Pygame library. This project was 
 
 - Classic 8x8 chess board
 - All standard chess pieces and moves
+- Castling..
 - Graphical user interface using Pygame
 - Move highlighting for valid moves
 - Move history tracking (optional)
@@ -26,7 +27,7 @@ A simple Chess game built using Python and the Pygame library. This project was 
 
 ```bash
 git clone https://github.com/Jeevan1405/Chess-Game-Using-Python.git
-cd Chess-Game-Using-Python
+cd Chess Game
 ```
 
 2. Install the required Python packages:
@@ -48,21 +49,20 @@ The game window will open with a chessboard. Players take turns moving pieces by
 ## 📁 Project Structure
 
 ```
-Chess-Game-Using-Python/
-├── assets/
-│   └── images/
-│       ├── wP.png
-│       ├── bP.png
-│       └── ... (other piece images)
-├── main.py
-├── chessEngine.py
-├── README.md
-└── requirements.txt
+Chess Game/
+├── images/
+│     ├── black king.png
+│     ├── white queen.png
+│     └── ... (other piece images)
+├── additions.py
+├── constants.py
+└── main.py
 ```
 
 ## 📚 How It Works
 
-- `chessEngine.py` handles the game state, including the board, move logic, and validations.
+- `additions.py` contain extra game logic or helper functions.
+- `constants.py` stores game-related fixed values
 - `main.py` uses Pygame to display the board and pieces, capture user input, and update the display based on moves.
 
 ## ✨ Future Improvements
@@ -70,7 +70,7 @@ Chess-Game-Using-Python/
 - AI opponent using Minimax algorithm
 - Full check/checkmate/stalemate detection
 - Move history display
-- Castling, pawn promotion, and en passant moves
+- Pawn promotion, and En passant moves
 - Save and load games
 
 ## 🙌 Credits
