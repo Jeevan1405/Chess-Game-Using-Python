@@ -4,8 +4,7 @@ A simple Chess game built using Python and the Pygame library. This project was 
 
 ## 📸 Screenshot
 
-(scr![Chess Game image](https://github.com/user-attachments/assets/aaf32295-a429-417d-acdb-a7eabb5e8db6)
-eenshot.png)
+(![Chess Game image](https://github.com/user-attachments/assets/aaf32295-a429-417d-acdb-a7eabb5e8db6))
 
 ## 📖 Features
 
